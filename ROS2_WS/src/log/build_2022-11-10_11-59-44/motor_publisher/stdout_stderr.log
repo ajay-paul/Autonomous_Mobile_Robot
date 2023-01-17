@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/motor_publisher/motor_publisher.egg-info
+writing ../build/motor_publisher/motor_publisher.egg-info/PKG-INFO
+writing dependency_links to ../build/motor_publisher/motor_publisher.egg-info/dependency_links.txt
+writing entry points to ../build/motor_publisher/motor_publisher.egg-info/entry_points.txt
+writing requirements to ../build/motor_publisher/motor_publisher.egg-info/requires.txt
+writing top-level names to ../build/motor_publisher/motor_publisher.egg-info/top_level.txt
+writing manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+reading manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+writing manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ros2_ws/src/build/motor_publisher/build
+creating /home/pi/ros2_ws/src/build/motor_publisher/build/lib
+creating /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+copying motor_publisher/motorpublisher.py -> /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+copying motor_publisher/__init__.py -> /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+running install
+running install_lib
+creating /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+copying /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher/motorpublisher.py -> /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+copying /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher/__init__.py -> /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+byte-compiling /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher/motorpublisher.py to motorpublisher.cpython-38.pyc
+byte-compiling /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index
+creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index
+creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index/packages
+copying resource/motor_publisher -> /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ros2_ws/src/install/motor_publisher/share/motor_publisher
+copying launch/motor_publisher_launch_file.launch.py -> /home/pi/ros2_ws/src/install/motor_publisher/share/motor_publisher
+running install_egg_info
+Copying ../build/motor_publisher/motor_publisher.egg-info to /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motorpublisher script to /home/pi/ros2_ws/src/install/motor_publisher/lib/motor_publisher
+writing list of installed files to '/home/pi/ros2_ws/src/build/motor_publisher/install.log'

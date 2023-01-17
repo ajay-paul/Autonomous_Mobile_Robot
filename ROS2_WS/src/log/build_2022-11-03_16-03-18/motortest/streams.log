@@ -1,0 +1,24 @@
+[3.017s] Invoking command in '/home/pi/ros2_ws/src/motortest': PYTHONPATH=/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motortest build --build-base /home/pi/ros2_ws/src/build/motortest/build install --prefix /home/pi/ros2_ws/src/install/motortest --record /home/pi/ros2_ws/src/build/motortest/install.log --single-version-externally-managed
+[3.879s] running egg_info
+[3.880s] writing ../build/motortest/motortest.egg-info/PKG-INFO
+[3.881s] writing dependency_links to ../build/motortest/motortest.egg-info/dependency_links.txt
+[3.882s] writing entry points to ../build/motortest/motortest.egg-info/entry_points.txt
+[3.883s] writing requirements to ../build/motortest/motortest.egg-info/requires.txt
+[3.884s] writing top-level names to ../build/motortest/motortest.egg-info/top_level.txt
+[4.010s] reading manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'
+[4.013s] writing manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'
+[4.014s] running build
+[4.015s] running build_py
+[4.015s] copying motortest/simple_publisher.py -> /home/pi/ros2_ws/src/build/motortest/build/lib/motortest
+[4.016s] running install
+[4.019s] running install_lib
+[4.023s] copying /home/pi/ros2_ws/src/build/motortest/build/lib/motortest/simple_publisher.py -> /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest
+[4.025s] byte-compiling /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest/simple_publisher.py to simple_publisher.cpython-38.pyc
+[4.031s] running install_data
+[4.033s] running install_egg_info
+[4.039s] removing '/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest-0.0.0-py3.8.egg-info' (and everything under it)
+[4.040s] Copying ../build/motortest/motortest.egg-info to /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest-0.0.0-py3.8.egg-info
+[4.044s] running install_scripts
+[4.103s] Installing simple_publisher script to /home/pi/ros2_ws/src/install/motortest/lib/motortest
+[4.104s] writing list of installed files to '/home/pi/ros2_ws/src/build/motortest/install.log'
+[4.202s] Invoked command in '/home/pi/ros2_ws/src/motortest' returned '0': PYTHONPATH=/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motortest build --build-base /home/pi/ros2_ws/src/build/motortest/build install --prefix /home/pi/ros2_ws/src/install/motortest --record /home/pi/ros2_ws/src/build/motortest/install.log --single-version-externally-managed

@@ -1,0 +1,38 @@
+[6.387s] Invoking command in '/home/pi/ros2_ws/src/motor_publisher': PYTHONPATH=/home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motor_publisher build --build-base /home/pi/ros2_ws/src/build/motor_publisher/build install --prefix /home/pi/ros2_ws/src/install/motor_publisher --record /home/pi/ros2_ws/src/build/motor_publisher/install.log --single-version-externally-managed
+[8.261s] running egg_info
+[8.266s] creating ../build/motor_publisher/motor_publisher.egg-info
+[8.270s] writing ../build/motor_publisher/motor_publisher.egg-info/PKG-INFO
+[8.275s] writing dependency_links to ../build/motor_publisher/motor_publisher.egg-info/dependency_links.txt
+[8.277s] writing entry points to ../build/motor_publisher/motor_publisher.egg-info/entry_points.txt
+[8.279s] writing requirements to ../build/motor_publisher/motor_publisher.egg-info/requires.txt
+[8.280s] writing top-level names to ../build/motor_publisher/motor_publisher.egg-info/top_level.txt
+[8.298s] writing manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+[8.462s] reading manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+[8.471s] writing manifest file '../build/motor_publisher/motor_publisher.egg-info/SOURCES.txt'
+[8.480s] running build
+[8.481s] running build_py
+[8.487s] creating /home/pi/ros2_ws/src/build/motor_publisher/build
+[8.488s] creating /home/pi/ros2_ws/src/build/motor_publisher/build/lib
+[8.489s] creating /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+[8.492s] copying motor_publisher/motorpublisher.py -> /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+[8.498s] copying motor_publisher/__init__.py -> /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher
+[8.499s] running install
+[8.500s] running install_lib
+[8.503s] creating /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+[8.507s] copying /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher/motorpublisher.py -> /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+[8.508s] copying /home/pi/ros2_ws/src/build/motor_publisher/build/lib/motor_publisher/__init__.py -> /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher
+[8.514s] byte-compiling /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher/motorpublisher.py to motorpublisher.cpython-38.pyc
+[8.515s] byte-compiling /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher/__init__.py to __init__.cpython-38.pyc
+[8.516s] running install_data
+[8.519s] creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index
+[8.520s] creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index
+[8.522s] creating /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index/packages
+[8.523s] copying resource/motor_publisher -> /home/pi/ros2_ws/src/install/motor_publisher/share/ament_index/resource_index/packages
+[8.529s] copying package.xml -> /home/pi/ros2_ws/src/install/motor_publisher/share/motor_publisher
+[8.531s] copying launch/motor_publisher_launch_file.launch.py -> /home/pi/ros2_ws/src/install/motor_publisher/share/motor_publisher
+[8.532s] running install_egg_info
+[8.538s] Copying ../build/motor_publisher/motor_publisher.egg-info to /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor_publisher-0.0.0-py3.8.egg-info
+[8.539s] running install_scripts
+[8.613s] Installing motorpublisher script to /home/pi/ros2_ws/src/install/motor_publisher/lib/motor_publisher
+[8.616s] writing list of installed files to '/home/pi/ros2_ws/src/build/motor_publisher/install.log'
+[8.781s] Invoked command in '/home/pi/ros2_ws/src/motor_publisher' returned '0': PYTHONPATH=/home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/motor_publisher build --build-base /home/pi/ros2_ws/src/build/motor_publisher/build install --prefix /home/pi/ros2_ws/src/install/motor_publisher --record /home/pi/ros2_ws/src/build/motor_publisher/install.log --single-version-externally-managed

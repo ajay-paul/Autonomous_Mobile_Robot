@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000964] (motortest) JobQueued: {'identifier': 'motortest', 'dependencies': OrderedDict()}
+[0.003954] (motortest) JobStarted: {'identifier': 'motortest'}
+[0.099427] (-) TimerEvent: {}
+[0.200820] (-) TimerEvent: {}
+[0.302073] (-) TimerEvent: {}
+[0.402891] (-) TimerEvent: {}
+[0.503728] (-) TimerEvent: {}
+[0.604512] (-) TimerEvent: {}
+[0.705307] (-) TimerEvent: {}
+[0.806143] (-) TimerEvent: {}
+[0.907071] (-) TimerEvent: {}
+[1.010152] (-) TimerEvent: {}
+[1.111513] (-) TimerEvent: {}
+[1.212855] (-) TimerEvent: {}
+[1.313965] (-) TimerEvent: {}
+[1.414975] (-) TimerEvent: {}
+[1.515909] (-) TimerEvent: {}
+[1.616987] (-) TimerEvent: {}
+[1.725296] (-) TimerEvent: {}
+[1.826178] (-) TimerEvent: {}
+[1.926998] (-) TimerEvent: {}
+[2.027835] (-) TimerEvent: {}
+[2.128668] (-) TimerEvent: {}
+[2.229550] (-) TimerEvent: {}
+[2.330483] (-) TimerEvent: {}
+[2.431281] (-) TimerEvent: {}
+[2.532094] (-) TimerEvent: {}
+[2.632900] (-) TimerEvent: {}
+[2.733782] (-) TimerEvent: {}
+[2.834889] (-) TimerEvent: {}
+[2.842183] (motortest) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/motortest', 'build', '--build-base', '/home/pi/ros2_ws/src/build/motortest/build', 'install', '--prefix', '/home/pi/ros2_ws/src/install/motortest', '--record', '/home/pi/ros2_ws/src/build/motortest/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros2_ws/src/motortest', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.10.110 53656 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/pi/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.72.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-61e63457-86c7-4c7b-a6b7-62aab8a7a329.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/src/install:/home/pi/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8f089b2b96.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/src/install/motortest:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/src/build/motortest', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.110 53656 192.168.10.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.935184] (-) TimerEvent: {}
+[3.036314] (-) TimerEvent: {}
+[3.137240] (-) TimerEvent: {}
+[3.237923] (-) TimerEvent: {}
+[3.338577] (-) TimerEvent: {}
+[3.439322] (-) TimerEvent: {}
+[3.540090] (-) TimerEvent: {}
+[3.640895] (-) TimerEvent: {}
+[3.742536] (-) TimerEvent: {}
+[3.752494] (motortest) StdoutLine: {'line': b'running egg_info\n'}
+[3.755601] (motortest) StdoutLine: {'line': b'writing ../build/motortest/motortest.egg-info/PKG-INFO\n'}
+[3.756876] (motortest) StdoutLine: {'line': b'writing dependency_links to ../build/motortest/motortest.egg-info/dependency_links.txt\n'}
+[3.757884] (motortest) StdoutLine: {'line': b'writing entry points to ../build/motortest/motortest.egg-info/entry_points.txt\n'}
+[3.758843] (motortest) StdoutLine: {'line': b'writing requirements to ../build/motortest/motortest.egg-info/requires.txt\n'}
+[3.759703] (motortest) StdoutLine: {'line': b'writing top-level names to ../build/motortest/motortest.egg-info/top_level.txt\n'}
+[3.842764] (-) TimerEvent: {}
+[3.928454] (motortest) StdoutLine: {'line': b"reading manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'\n"}
+[3.934100] (motortest) StdoutLine: {'line': b"writing manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'\n"}
+[3.935246] (motortest) StdoutLine: {'line': b'running build\n'}
+[3.936125] (motortest) StdoutLine: {'line': b'running build_py\n'}
+[3.936684] (motortest) StdoutLine: {'line': b'copying motortest/simple_publisher.py -> /home/pi/ros2_ws/src/build/motortest/build/lib/motortest\n'}
+[3.938403] (motortest) StdoutLine: {'line': b'running install\n'}
+[3.941497] (motortest) StdoutLine: {'line': b'running install_lib\n'}
+[3.942804] (-) TimerEvent: {}
+[3.946529] (motortest) StdoutLine: {'line': b'copying /home/pi/ros2_ws/src/build/motortest/build/lib/motortest/simple_publisher.py -> /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest\n'}
+[3.948890] (motortest) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest/simple_publisher.py to simple_publisher.cpython-38.pyc\n'}
+[3.956048] (motortest) StdoutLine: {'line': b'running install_data\n'}
+[3.958477] (motortest) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.964820] (motortest) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.966603] (motortest) StdoutLine: {'line': b'Copying ../build/motortest/motortest.egg-info to /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest-0.0.0-py3.8.egg-info\n'}
+[3.972380] (motortest) StdoutLine: {'line': b'running install_scripts\n'}
+[4.043057] (-) TimerEvent: {}
+[4.058311] (motortest) StdoutLine: {'line': b'Installing simple_publisher script to /home/pi/ros2_ws/src/install/motortest/lib/motortest\n'}
+[4.062385] (motortest) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/src/build/motortest/install.log'\n"}
+[4.143323] (-) TimerEvent: {}
+[4.183562] (motortest) CommandEnded: {'returncode': 0}
+[4.244193] (-) TimerEvent: {}
+[4.316041] (motortest) JobEnded: {'identifier': 'motortest', 'rc': 0}
+[4.319692] (-) EventReactorShutdown: {}

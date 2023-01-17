@@ -1,0 +1,18 @@
+[5.514s] Invoking command in '/home/pi/ros2_ws/src/build/motor_publisher': PYTHONPATH=/home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/ros2_ws/src/install/motor_publisher --editable --build-directory /home/pi/ros2_ws/src/build/motor_publisher/build --no-deps install_data --install-dir /home/pi/ros2_ws/src/install/motor_publisher
+[7.125s] running develop
+[7.884s] running egg_info
+[7.885s] writing motor_publisher.egg-info/PKG-INFO
+[7.886s] writing dependency_links to motor_publisher.egg-info/dependency_links.txt
+[7.888s] writing entry points to motor_publisher.egg-info/entry_points.txt
+[7.890s] writing requirements to motor_publisher.egg-info/requires.txt
+[7.892s] writing top-level names to motor_publisher.egg-info/top_level.txt
+[8.052s] reading manifest file 'motor_publisher.egg-info/SOURCES.txt'
+[8.057s] writing manifest file 'motor_publisher.egg-info/SOURCES.txt'
+[8.314s] running build_ext
+[8.319s] Creating /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/site.py
+[8.332s] Creating /home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages/motor-publisher.egg-link (link to .)
+[8.341s] Installing motorpublisher script to /home/pi/ros2_ws/src/install/motor_publisher/lib/motor_publisher
+[8.347s] 
+[8.348s] Installed /home/pi/ros2_ws/src/build/motor_publisher
+[8.349s] running install_data
+[8.666s] Invoked command in '/home/pi/ros2_ws/src/build/motor_publisher' returned '0': PYTHONPATH=/home/pi/ros2_ws/src/install/motor_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/ros2_ws/src/install/motor_publisher --editable --build-directory /home/pi/ros2_ws/src/build/motor_publisher/build --no-deps install_data --install-dir /home/pi/ros2_ws/src/install/motor_publisher

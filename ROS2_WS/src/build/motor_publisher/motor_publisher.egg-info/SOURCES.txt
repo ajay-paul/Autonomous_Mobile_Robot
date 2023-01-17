@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/motor_publisher_launch_file.launch.py
+motor_publisher/__init__.py
+motor_publisher/motorpublisher.py
+motor_publisher.egg-info/PKG-INFO
+motor_publisher.egg-info/SOURCES.txt
+motor_publisher.egg-info/dependency_links.txt
+motor_publisher.egg-info/entry_points.txt
+motor_publisher.egg-info/requires.txt
+motor_publisher.egg-info/top_level.txt
+motor_publisher.egg-info/zip-safe
+resource/motor_publisher

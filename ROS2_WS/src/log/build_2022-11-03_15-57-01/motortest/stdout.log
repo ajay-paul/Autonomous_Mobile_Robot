@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/motortest/motortest.egg-info
+writing ../build/motortest/motortest.egg-info/PKG-INFO
+writing dependency_links to ../build/motortest/motortest.egg-info/dependency_links.txt
+writing entry points to ../build/motortest/motortest.egg-info/entry_points.txt
+writing requirements to ../build/motortest/motortest.egg-info/requires.txt
+writing top-level names to ../build/motortest/motortest.egg-info/top_level.txt
+writing manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'
+reading manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'
+writing manifest file '../build/motortest/motortest.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ros2_ws/src/build/motortest/build
+creating /home/pi/ros2_ws/src/build/motortest/build/lib
+creating /home/pi/ros2_ws/src/build/motortest/build/lib/motortest
+copying motortest/simple_publisher.py -> /home/pi/ros2_ws/src/build/motortest/build/lib/motortest
+copying motortest/__init__.py -> /home/pi/ros2_ws/src/build/motortest/build/lib/motortest
+running install
+running install_lib
+creating /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest
+copying /home/pi/ros2_ws/src/build/motortest/build/lib/motortest/simple_publisher.py -> /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest
+copying /home/pi/ros2_ws/src/build/motortest/build/lib/motortest/__init__.py -> /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest
+byte-compiling /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest/simple_publisher.py to simple_publisher.cpython-38.pyc
+byte-compiling /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pi/ros2_ws/src/install/motortest/share/ament_index
+creating /home/pi/ros2_ws/src/install/motortest/share/ament_index/resource_index
+creating /home/pi/ros2_ws/src/install/motortest/share/ament_index/resource_index/packages
+copying resource/motortest -> /home/pi/ros2_ws/src/install/motortest/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ros2_ws/src/install/motortest/share/motortest
+copying launch/motortest_launch_file.launch.py -> /home/pi/ros2_ws/src/install/motortest/share/motortest
+running install_egg_info
+Copying ../build/motortest/motortest.egg-info to /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest-0.0.0-py3.8.egg-info
+running install_scripts
+Installing simple_publisher script to /home/pi/ros2_ws/src/install/motortest/lib/motortest
+writing list of installed files to '/home/pi/ros2_ws/src/build/motortest/install.log'

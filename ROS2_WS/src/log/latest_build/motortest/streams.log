@@ -1,0 +1,18 @@
+[5.404s] Invoking command in '/home/pi/ros2_ws/src/build/motortest': PYTHONPATH=/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/ros2_ws/src/install/motortest --editable --build-directory /home/pi/ros2_ws/src/build/motortest/build --no-deps install_data --install-dir /home/pi/ros2_ws/src/install/motortest
+[7.076s] running develop
+[7.843s] running egg_info
+[7.846s] writing motortest.egg-info/PKG-INFO
+[7.848s] writing dependency_links to motortest.egg-info/dependency_links.txt
+[7.850s] writing entry points to motortest.egg-info/entry_points.txt
+[7.853s] writing requirements to motortest.egg-info/requires.txt
+[7.854s] writing top-level names to motortest.egg-info/top_level.txt
+[8.010s] reading manifest file 'motortest.egg-info/SOURCES.txt'
+[8.015s] writing manifest file 'motortest.egg-info/SOURCES.txt'
+[8.290s] running build_ext
+[8.291s] Creating /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/site.py
+[8.306s] Creating /home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages/motortest.egg-link (link to .)
+[8.315s] Installing simple_publisher script to /home/pi/ros2_ws/src/install/motortest/lib/motortest
+[8.323s] 
+[8.325s] Installed /home/pi/ros2_ws/src/build/motortest
+[8.328s] running install_data
+[8.668s] Invoked command in '/home/pi/ros2_ws/src/build/motortest' returned '0': PYTHONPATH=/home/pi/ros2_ws/src/install/motortest/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pi/ros2_ws/src/install/motortest --editable --build-directory /home/pi/ros2_ws/src/build/motortest/build --no-deps install_data --install-dir /home/pi/ros2_ws/src/install/motortest
